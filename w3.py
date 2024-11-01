@@ -38,7 +38,18 @@ print(thislist)
 
 # extend()
 
+
 thislist = ["apple", "banana", "cherry"]
 tropical = ["mango", "pineapple", "papaya"]
 thislist.extend(tropical)
+print(thislist)
+
+# remove method in the list
+
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(1)
 print(thislist)
