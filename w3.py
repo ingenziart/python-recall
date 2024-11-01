@@ -24,3 +24,9 @@ print(text3)
 
 thislist = ["mango", "banana", "passion", "blueberry", "stwaberry"]
 print(thislist[-4:-1])
+
+# change the list
+
+thislist = ["mango", "banana", "passion", "blueberry", "stwaberry"]
+thislist[1] = "januzaj"
+print(thislist)
