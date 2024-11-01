@@ -53,3 +53,30 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
 print(thislist)
+# delete method (will couse the error but its actually its deleted completery )
+thislist = ["apple", "banana", "cherry"]
+del thislist
+print(thislist)
+
+# clear method
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
+# loop list
+
+thislist = ["apple", "banana", "cherry"]
+for i in thislist:
+    print(i)
+
+# list complession
+
+thislist = ["apple", "banana", "cherry"]
+
+newlist = []
+
+for i in thislist:
+    if "a" in i:
+        newlist.append(i)
+
+print(newlist)
