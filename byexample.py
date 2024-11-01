@@ -33,3 +33,13 @@ for i in range(1, 10):
 word = "januzaj"
 for i in word:
     print(i)
+
+fruit_tuple = ("banana", "mango", "passion")
+print(fruit_tuple.index("strawbery"))
+
+list1 = ["janu", "aime", "mbabazi"]
+del list1[0]
+
+print(list1)
+
+# in python list is array and dictionary is object in javascripts
