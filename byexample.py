@@ -12,3 +12,9 @@ elif num1 == 10:
     print("this is equal")
 else:
     print("none of them")
+
+santense = "januzaj aime mbabazi"
+print(len(santense))
+print(santense.upper())
+print(santense.capitalize())
+print(santense.title())
