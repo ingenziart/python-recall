@@ -18,3 +18,18 @@ print(len(santense))
 print(santense.upper())
 print(santense.capitalize())
 print(santense.title())
+
+# math
+import math
+
+num = round(6466, 2)
+print(math.sqrt(num))
+
+# for loop
+
+for i in range(1, 10):
+    print(i)
+
+word = "januzaj"
+for i in word:
+    print(i)
