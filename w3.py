@@ -28,5 +28,17 @@ print(thislist[-4:-1])
 # change the list
 
 thislist = ["mango", "banana", "passion", "blueberry", "stwaberry"]
-thislist[1] = "januzaj"
+thislist[1:3] = ["januzaj", "aime"]
+print(thislist)
+
+# insert method
+thislist = ["mango", "banana", "passion", "blueberry", "stwaberry"]
+thislist.insert(2, "watermellon")
+print(thislist)
+
+# extend()
+
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
 print(thislist)
