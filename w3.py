@@ -80,3 +80,24 @@ for i in thislist:
         newlist.append(i)
 
 print(newlist)
+
+# sort list
+
+thislist = ["apple", "banana", "cherry"]
+thislist.sort()
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.sort(reverse=True)
+print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist.sort(reverse=True)
+for i in thislist:
+    print(i)
+
+# copy the list
+
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
