@@ -190,3 +190,17 @@ print(x)
 mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
 x = mydictional.values()
 print(x)
+
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+x = mydictional.values()
+print(x)
+mydictional["dob"] = 2024
+print(x)
+
+# change dictional using update()
+
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+
+mydictional.update({"dob": 2024})
+
+print(mydictional)
