@@ -248,3 +248,13 @@ for i in fruit:
     if i == "banana":
         break
     print(i)
+
+
+# function
+
+
+def my_function():
+    print("hello")
+
+
+my_function()
