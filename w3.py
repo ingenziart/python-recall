@@ -204,3 +204,8 @@ mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
 mydictional.update({"dob": 2024})
 
 print(mydictional)
+
+# remove item on dictional is pop
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+mydictional.pop("dob")
+print(mydictional)
