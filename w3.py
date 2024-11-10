@@ -224,3 +224,10 @@ if a < b:
     print("yes")
 else:
     print("noo")
+
+# while loop note you have to increment the loop
+i = 1
+
+while i < 6:
+    i += 1
+    print(i)
