@@ -274,3 +274,36 @@ def my_function(fname, lname):
 
 
 my_function("mbbabazi", "aime")
+
+
+def my_function(child3, child2, child1):
+    print("The youngest child is " + child3)
+
+
+my_function(child1="Emil", child2="Tobias", child3="Linus")
+
+
+def my_function(**kids):
+    print("lastborn is" + kids["lname"])
+
+
+my_function(fname="janu", lname="januzaj")
+
+
+def my_country(country="norway"):
+    print("my country is " + country)
+
+
+my_country()
+my_country("rwanda")
+
+# passing a list as argument
+
+
+def my_function(food):
+    for i in food:
+        print(i)
+
+
+fruit = ["banana", "mango", "berry"]
+my_function(fruit)
