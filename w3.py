@@ -258,3 +258,19 @@ def my_function():
 
 
 my_function()
+
+
+def my_function(fname):
+    print(fname + " mbabazi")
+
+
+my_function("ingenzi")
+
+# function with passing arguments and parameters
+
+
+def my_function(fname, lname):
+    print(fname + " " + lname)
+
+
+my_function("mbbabazi", "aime")
