@@ -27,6 +27,7 @@ print(thislist[-4:-1])
 
 # change the list
 
+
 thislist = ["mango", "banana", "passion", "blueberry", "stwaberry"]
 thislist[1:3] = ["januzaj", "aime"]
 print(thislist)
@@ -109,3 +110,9 @@ list2 = [1, 2, 3]
 for x in list2:
     list1.append(x)
 print(list1)
+
+
+# turple
+
+thisturple = ("apple", "banana", "mango", "strawbelly")
+print(thisturple)
