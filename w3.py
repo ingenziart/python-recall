@@ -131,3 +131,18 @@ thisturple = ("apple", "banana", "mango", "strawbelly")
 x = list(thisturple)
 x[1] = "kiwi"
 print(x)
+
+# the secret is to change turple into list coz turple can not be changeble.
+
+thisturple = ("apple", "banana", "mango", "strawbelly")
+x = list(thisturple)
+x.append("orange")
+print(x)
+
+# to add turple (concatenate turple)
+
+
+thisturple = ("apple", "banana", "mango", "strawbelly")
+athor = ("orange",)
+thisturple += athor
+print(thisturple)
