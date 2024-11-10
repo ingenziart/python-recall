@@ -307,3 +307,12 @@ def my_function(food):
 
 fruit = ["banana", "mango", "berry"]
 my_function(fruit)
+
+# return value
+
+
+def my_function(x):
+    return x * 5
+
+
+print(my_function(3))
