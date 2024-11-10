@@ -146,3 +146,6 @@ thisturple = ("apple", "banana", "mango", "strawbelly")
 athor = ("orange",)
 thisturple += athor
 print(thisturple)
+
+# Note: When creating a tuple with only one item, remember to include a comma after
+# the item, otherwise it will not be identified as a tuple.
