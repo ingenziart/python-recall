@@ -149,3 +149,11 @@ print(thisturple)
 
 # Note: When creating a tuple with only one item, remember to include a comma after
 # the item, otherwise it will not be identified as a tuple.
+
+# remove items
+# you can not rwmove something on turple coz is unchangable you just tun into list
+
+thisturple = ("apple", "banana", "mango", "strawbelly")
+x = list(thisturple)
+x.remove("banana")
+print(x)
