@@ -116,3 +116,18 @@ print(list1)
 
 thisturple = ("apple", "banana", "mango", "strawbelly")
 print(thisturple)
+
+thistuple = ("apple",)
+print(type(thistuple))
+
+# turple can store different data type
+
+tuple1 = ("abc", 34, True, 40, "male")
+print(tuple1)
+
+# convert turple to list
+
+thisturple = ("apple", "banana", "mango", "strawbelly")
+x = list(thisturple)
+x[1] = "kiwi"
+print(x)
