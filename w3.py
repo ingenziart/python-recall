@@ -209,3 +209,18 @@ print(mydictional)
 mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
 mydictional.pop("dob")
 print(mydictional)
+
+# loop
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+
+for x in mydictional:
+    print(mydictional[x])
+
+# if
+
+a = 30
+b = 20
+if a < b:
+    print("yes")
+else:
+    print("noo")
