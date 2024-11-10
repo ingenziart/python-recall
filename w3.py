@@ -157,3 +157,13 @@ thisturple = ("apple", "banana", "mango", "strawbelly")
 x = list(thisturple)
 x.remove("banana")
 print(x)
+
+# set
+
+thisset = {"banana", "orange", "brueberry", "strawbelly"}
+print(thisset)
+
+# set can not repeat items
+thisset = {"apple", "banana", "cherry", "apple"}
+
+print(thisset)
