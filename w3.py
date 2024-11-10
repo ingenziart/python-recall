@@ -231,3 +231,20 @@ i = 1
 while i < 6:
     i += 1
     print(i)
+
+# break method
+
+i = 1
+while i < 6:
+    print(i)
+    if i == 3:
+        break
+    i += 1
+# for loop and break
+
+
+fruit = ["apple", "banana", "mango"]
+for i in fruit:
+    if i == "banana":
+        break
+    print(i)
