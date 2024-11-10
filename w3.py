@@ -173,3 +173,12 @@ thisset = {"apple", "banana", "cherry", "apple"}
 
 for x in thisset:
     print(x)
+# dictionary is like object in javascripts
+
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+print(mydictional)
+
+# print out one property
+
+mydictional = {"name": "aime", "surname": "januzaj", "dob": 2000}
+print(mydictional["name"])
