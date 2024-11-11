@@ -390,3 +390,16 @@ class cars:
 
 p1 = cars("toyota", 2025, 1)
 print(p1)
+
+
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def my_function(self):
+        return f"{self.name} {self.age}"
+
+
+p1 = person("aime", 24)
+print(p1.my_function())
