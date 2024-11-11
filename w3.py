@@ -361,3 +361,32 @@ s = cars("toyota", 2025, 1)
 print(s.bland)
 print(s.year)
 print(s.rank)
+
+# __str__ class function to represent string
+
+
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def __str__(self):
+        return f"{self.name}({self.age})"
+
+
+p = person("aime", 24)
+print(p)
+
+
+class cars:
+    def __init__(self, bland, year, rank):
+        self.bland = bland
+        self.year = year
+        self.rank = rank
+
+    def __str__(self):
+        return f"{self.bland} {self.year} {self.rank} "
+
+
+p1 = cars("toyota", 2025, 1)
+print(p1)
