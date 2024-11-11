@@ -316,3 +316,22 @@ def my_function(x):
 
 
 print(my_function(3))
+
+# python class and object
+
+
+class myclass:
+    x = 5
+
+
+print(myclass)
+
+# we define class in order to built object
+
+
+class myclass:
+    x = 5
+
+
+p = myclass()
+print(p.x)
