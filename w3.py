@@ -335,3 +335,29 @@ class myclass:
 
 p = myclass()
 print(p.x)
+
+# class real life example __init__()
+
+
+class person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+p1 = person("aime", 24)
+print(p1.name)
+print(p1.age)
+
+
+class cars:
+    def __init__(self, bland, year, rank):
+        self.bland = bland
+        self.year = year
+        self.rank = rank
+
+
+s = cars("toyota", 2025, 1)
+print(s.bland)
+print(s.year)
+print(s.rank)
