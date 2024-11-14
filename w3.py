@@ -402,4 +402,20 @@ class person:
 
 
 p1 = person("aime", 24)
+p1.age = 25
 print(p1.my_function())
+
+# inhertance
+
+
+class person:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printname(self):
+        print(self.firstname, self.lastname)
+
+
+x = person("aime", "januzaj")
+x.printname()
