@@ -434,3 +434,42 @@ class car:
 
 x = car("bmw", 2024)
 x.printcar()
+
+# pormolphysim
+
+
+class car:
+    def __init__(self, bland, model):
+        self.bland = bland
+        self.model = model
+
+    def move(self):
+        print("drive")
+
+
+class boat:
+    def __init__(self, bland, model):
+        self.bland = bland
+        self.model = model
+
+    def move(self):
+        print("seil")
+
+
+class plane:
+    def __init__(self, bland, model):
+        self.bland = bland
+        self.model = model
+
+    def move(self):
+        print("fly")
+
+
+car1 = car("bmw", "m12")
+boat1 = boat("norwegian", "m12")
+plane1 = plane("boing", "fly198")
+
+for x in (car1, boat1, plane1):
+    x.move()
+    print(x.bland)
+    print(x.bland)
