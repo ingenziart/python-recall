@@ -494,3 +494,9 @@ x = datetime.datetime.now()
 print(x)
 print(x.day)
 print(x.strftime("%A"))
+
+# python read file
+## i learned basic of python
+# other task are practice to re enforce it .
+# jumping to django development and later DSA
+# groly be to the lord .
