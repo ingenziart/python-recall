@@ -473,3 +473,10 @@ for x in (car1, boat1, plane1):
     x.move()
     print(x.bland)
     print(x.bland)
+
+# module
+import aime
+
+aime.my_function("januzaj")
+
+# module is technique to work on other page and after you import to onother page for example here was on aime.py
