@@ -419,3 +419,18 @@ class person:
 
 x = person("aime", "januzaj")
 x.printname()
+
+# 2 example
+
+
+class car:
+    def __init__(self, brand, year):
+        self.brand = brand
+        self.year = year
+
+    def printcar(self):
+        print(f"{self.brand},{self.year}")
+
+
+x = car("bmw", 2024)
+x.printcar()
