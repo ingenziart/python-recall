@@ -480,3 +480,17 @@ import aime
 aime.my_function("januzaj")
 
 # module is technique to work on other page and after you import to onother page for example here was on aime.py
+
+# date in python
+
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+print(x.day)
+print(x.strftime("%A"))
